@@ -1,7 +1,6 @@
 def matrix_dot_vector(a, b):
 
-	
-    if any(len(row) != len(b) for row in a):
+	if any(len(row) != len(b) for row in a):
         return -1
 
     return [
